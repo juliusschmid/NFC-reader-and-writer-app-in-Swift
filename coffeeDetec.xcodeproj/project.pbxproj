@@ -24,6 +24,7 @@
 		75D2C29427F9B73A001A86C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		75D2C29727F9B73A001A86C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		75D2C29927F9B73A001A86C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75D2C29F27F9B74B001A86C6 /* coffeeDetec.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = coffeeDetec.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +57,7 @@
 		75D2C28A27F9B739001A86C6 /* coffeeDetec */ = {
 			isa = PBXGroup;
 			children = (
+				75D2C29F27F9B74B001A86C6 /* coffeeDetec.entitlements */,
 				75D2C28B27F9B739001A86C6 /* AppDelegate.swift */,
 				75D2C28D27F9B739001A86C6 /* SceneDelegate.swift */,
 				75D2C28F27F9B739001A86C6 /* ViewController.swift */,
@@ -287,6 +289,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = coffeeDetec/coffeeDetec.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 48RDA7CYY5;
@@ -315,6 +318,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = coffeeDetec/coffeeDetec.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 48RDA7CYY5;
